@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import img from "./imgmain.jpeg";
 import "./App.css";
 import Card from "./Card.js";
 import { useState } from "react";
@@ -6,6 +7,7 @@ import { useState } from "react";
 function App() {
   // criar o estado buttonCliked
   const [buttonClicked, setButtonCliked] = useState("about me");
+  const handleClose = () => setButtonCliked(null);
   return (
     <div className="App">
       <header className="App-header">
@@ -42,6 +44,16 @@ function App() {
               Projects
             </button>
           </div>
+          <div className="main-container">
+            <img src={img} className="main-img"></img>
+            <div className="main-description">
+              <ul>
+                <li>Portuguese/Intermediate English</li>
+                <li>Right to work UK and EU</li>
+                <li>HTML | CSS | JAVASCRIPT | REACT</li>
+              </ul>
+            </div>
+          </div>
           {buttonClicked === "about me" ? (
             <Card
               title="Who am i?"
@@ -51,6 +63,7 @@ function App() {
               spend a lot of time at the gym, which helps me stay focused and
               energized. Combining my interest in technology and fitness keeps
               me motivated every day!"
+              onClose={handleClose}
             />
           ) : null}
           {buttonClicked === "Skills" ? (
@@ -68,6 +81,7 @@ function App() {
                 "JavaScript",
                 "React",
               ]}
+              onClose={handleClose}
             />
           ) : null}
           {buttonClicked === "Projects" ? (
@@ -83,6 +97,7 @@ function App() {
                   url: " https://ayslaloureiro.github.io/web_project_around_react/",
                 },
               ]}
+              onClose={handleClose}
             />
           ) : null}
         </main>
