@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Meu Portfólio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+Este projeto é um portfólio pessoal desenvolvido em **React**. Ele foi criado para apresentar um pouco sobre mim, incluindo informações pessoais e profissionais, além de destacar minhas habilidades e experiências.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- **Seção "Sobre Mim"**:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - Apresentação pessoal com uma breve descrição.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Seções de Experiências e Habilidades**:
 
-### `npm test`
+  - Lista de experiências profissionais e principais competências.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Projetos Recentes**:
 
-### `npm run build`
+  - Exibição de projetos recentes com descrições e links.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Formulário de Contato**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - Permite que visitantes entrem em contato diretamente.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Design Responsivo**:
+  - Totalmente responsivo para dispositivos desktop, tablets e smartphones.
 
-### `npm run eject`
+## Tecnologias Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React**: Biblioteca JavaScript para criar interfaces de usuário.
+- **CSS/Styled Components**: Para estilização.
+- **React Router**: Para navegação entre páginas.
+- **EmailJS** (ou outra API): Para envio de mensagens pelo formulário de contato (se implementado).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Como Rodar o Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone o Repositório**:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   git clone <url-do-repositorio>
+   cd meu-portfolio
+   ```
 
-## Learn More
+2. **Instale as Dependências**:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Inicie o Servidor de Desenvolvimento**:
+   ```bash
+   npm start
+   ```
+   O aplicativo estará disponível em `http://localhost:3000`.
 
-### Code Splitting
+## Exemplos de Uso
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Explorar Habilidades**:
+   Navegue até a seção de habilidades para visualizar minhas competências técnicas.
 
-### Analyzing the Bundle Size
+2. **Projetos Recentes**:
+   Clique nos links para acessar detalhes ou ver demonstrações de projetos concluídos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. **Contato**:
+   Preencha o formulário para enviar uma mensagem diretamente para mim.
 
-### Making a Progressive Web App
+## Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Se desejar contribuir ou sugerir melhorias, siga estes passos:
 
-### Advanced Configuration
+1. Faça um fork do repositório.
+2. Crie uma branch para sua modificação:
+   ```bash
+   git checkout -b minha-contribuicao
+   ```
+3. Commit suas alterações:
+   ```bash
+   git commit -m "Minha contribuição"
+   ```
+4. Faça um push para sua branch:
+   ```bash
+   git push origin minha-contribuicao
+   ```
+5. Abra um Pull Request no repositório original.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Autor
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Criado por [Aysla Loureiro]. Fique à vontade para entrar em contato e compartilhar feedback!
