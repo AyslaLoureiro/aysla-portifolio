@@ -48,7 +48,7 @@ function App() {
           <img src={img} className="main-img"></img>
           <div className="main-description">
             <ul>
-              <li>Portuguese/B2 English</li>
+              <li>Portuguese/B1 English</li>
               <li>Right to work UK/EU</li>
               <li>HTML | CSS | JAVASCRIPT | REACT</li>
             </ul>
