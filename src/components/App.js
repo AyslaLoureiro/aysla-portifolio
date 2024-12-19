@@ -49,7 +49,7 @@ function App() {
           <div className="main-description">
             <ul>
               <li>Portuguese/B2 English</li>
-              <li>Right to work UK and EU</li>
+              <li>Right to work UK/EU</li>
               <li>HTML | CSS | JAVASCRIPT | REACT</li>
             </ul>
           </div>
